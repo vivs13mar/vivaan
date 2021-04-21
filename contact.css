@@ -1,0 +1,99 @@
+#box{
+    height:70%;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 0 50px;
+;
+}
+h1{
+    /* text-align: center; */
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    position: absolute;
+    left: 23%;
+    
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+
+    border: solid 1px white;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="email"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    border: solid 1px white;
+    background-color: transparent;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    outline: none;
+}
+::placeholder{
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+h3{
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    right: 2%;
+    top: 33%;
+    font-size: 55px;
+    width: 40%;
+}
+#socials{
+    width: 300px;
+    position: absolute;
+    right: 17%;
+    top: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#socials i{
+    font-size: 33px;
+}
+.socials{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#socials i:hover{
+    cursor: pointer;
+    color: turquoise;
+}
+
+#socials a{
+    text-decoration: none;
+}
